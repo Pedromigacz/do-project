@@ -3,7 +3,7 @@ import styled from "styled-components"
 import Header from "./Header"
 
 import { graphql, useStaticQuery } from "gatsby"
-import { getImage } from "gatsby-plugin-image"
+import { getImage, StaticImage } from "gatsby-plugin-image"
 
 import { convertToBgImage } from "gbimage-bridge"
 import BackgroundImage from "gatsby-background-image"
@@ -39,6 +39,16 @@ const HomePageLayout: React.FC = () => {
       }}
     >
       <Layout>
+        <ImageWrapper>
+          <StaticImage
+            src="../../static/images/lotus_.jpg"
+            alt="A dinosaur"
+            placeholder="blurred"
+            layout="fixed"
+            width={280}
+            height={280}
+          />
+        </ImageWrapper>
         <Header />
         <InformationWrapper>
           <MainTitle>Seed Chumbi</MainTitle>
@@ -60,6 +70,15 @@ const Layout = styled.div`
   display: grid;
   grid-template-columns: 2fr 3fr;
 `
+
+// grid top left
+
+const ImageWrapper = styled.div`
+  justify-self: center;
+  align-self: center;
+`
+
+// Main
 
 const InformationWrapper = styled.main`
   display: flex;
