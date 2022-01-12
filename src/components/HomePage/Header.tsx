@@ -41,6 +41,11 @@ const LinkContent = styled.li`
   margin: none;
   list-style: none;
   padding: 6px 8px;
+  transition: 150ms;
+  border-radius: 5px;
+  &:hover {
+    background: rgba(0, 0, 0, 0.4);
+  }
 `
 
 export default Header
