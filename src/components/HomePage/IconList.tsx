@@ -11,17 +11,17 @@ import Medium from "../icons/Medium"
 
 const IconList: React.FC = () => (
   <Wrapper>
-    <Link to="#">
+    <Link to="https://t.me/LotusNetworkDAO">
       <Icon>
         <Telegram />
       </Icon>
     </Link>
-    <Link to="#">
+    <Link to="https://twitter.com/LotusNetworkDAO">
       <Icon>
         <Twitter />
       </Icon>
     </Link>
-    <Link to="#">
+    <Link to="https://discord.gg/J6GdzvJ3">
       <Icon>
         <Discord />
       </Icon>
@@ -31,7 +31,7 @@ const IconList: React.FC = () => (
         <Github />
       </Icon>
     </Link>
-    <Link to="#">
+    <Link to="https://medium.com/@lotusnetworkdao">
       <Icon>
         <Medium />
       </Icon>
