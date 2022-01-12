@@ -9,6 +9,7 @@
     "@types/react-dom": "^17.0.11",
     "babel-plugin-styled-components": "^2.0.2",
     "gatsby": "^4.4.0",
+    "gatsby-background-image": "^1.6.0",
     "gatsby-plugin-gatsby-cloud": "^4.4.0",
     "gatsby-plugin-image": "^2.4.0",
     "gatsby-plugin-manifest": "^4.4.0",
@@ -19,6 +20,7 @@
     "gatsby-plugin-typescript": "^4.4.0",
     "gatsby-source-filesystem": "^4.4.0",
     "gatsby-transformer-sharp": "^4.4.0",
+    "gbimage-bridge": "^0.2.1",
     "prop-types": "^15.8.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
@@ -26,6 +28,7 @@
     "styled-components": "^5.3.3"
   },
   "devDependencies": {
+    "@types/styled-components": "^5.1.20",
     "prettier": "^2.5.1"
   },
   "keywords": [
