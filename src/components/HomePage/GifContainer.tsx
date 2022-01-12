@@ -9,15 +9,16 @@ const GifContainer: React.FC = () => (
 )
 
 const RotatingLogoWrapper = styled.div`
-  align-self: center;
+  margin-top: 6rem;
+  align-self: start;
   justify-self: center;
   display: grid;
   place-items: center;
   background: #444444;
   box-shadow: inset 0px 0px 23px 1px rgba(0, 0, 0, 0.2);
   border-radius: 106px;
-  width: 40vw;
-  height: 30vw;
+  width: 45vw;
+  height: 26vw;
   img {
     display: inline-block;
     height: 100%;

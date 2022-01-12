@@ -91,9 +91,10 @@ const ImageWrapper = styled.div`
 // Main
 
 const InformationWrapper = styled.main`
+  margin-top: 6.5rem;
+  align-self: start;
   display: flex;
   flex-direction: column;
-  align-self: center;
   justify-self: center;
   max-width: 590px;
   display: inline-block;
