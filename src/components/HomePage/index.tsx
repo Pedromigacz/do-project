@@ -147,6 +147,12 @@ const MainButton = styled.button`
   background: linear-gradient(92.7deg, #8416a2 -0.23%, #de654d 100%);
   box-shadow: inset 0px 0px 23px 1px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
+  transition: 200ms;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.1);
+  }
 `
 
 export default HomePageLayout
