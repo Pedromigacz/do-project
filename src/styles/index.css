@@ -23,7 +23,7 @@ body {
   padding: 0;
   margin: 0;
   --main-font: "Roboto", sans-serif;
-  --minor-font: "Lufga", sans-serif;
+  --second-font: "Lufga", sans-serif;
 }
 
 a {
