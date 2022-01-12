@@ -53,7 +53,7 @@ const HomePageLayout: React.FC = () => {
         </ImageWrapper>
         <Header />
         <InformationWrapper>
-          <MainTitle>Seed Chumbi</MainTitle>
+          <MainTitle>Lotus Network</MainTitle>
           <SecondTitle>Sale is closed 0/1000</SecondTitle>
           <ThirdTitle>The pods will hatch soon!</ThirdTitle>
           <Paragraph>
