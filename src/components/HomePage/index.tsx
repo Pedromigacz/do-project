@@ -117,6 +117,7 @@ const SecondTitle = styled.h2`
   color: #c14f67;
   font-size: 3.5rem;
   margin: 0;
+  margin-bottom: 2rem;
 `
 
 const ThirdTitle = styled.h3`
