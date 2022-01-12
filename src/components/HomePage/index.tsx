@@ -1,5 +1,6 @@
 import * as React from "react"
 import styled from "styled-components"
+import Header from "./Header"
 
 import { graphql, useStaticQuery } from "gatsby"
 import { getImage } from "gatsby-plugin-image"
@@ -38,7 +39,7 @@ const HomePageLayout: React.FC = () => {
       }}
     >
       <Layout>
-        {/* <Img fixed={data.file.childImageSharp.fixed} /> */}
+        <Header />
         <InformationWrapper>
           <MainTitle>Seed Chumbi</MainTitle>
           <SecondTitle>Sale is closed 0/1000</SecondTitle>
