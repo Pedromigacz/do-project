@@ -1,6 +1,7 @@
 import * as React from "react"
 import styled from "styled-components"
 import Header from "./Header"
+import GifContainer from "./GifContainer"
 
 import { graphql, useStaticQuery } from "gatsby"
 import { getImage, StaticImage } from "gatsby-plugin-image"
@@ -59,6 +60,7 @@ const HomePageLayout: React.FC = () => {
             if you missed the sale, you can still buy them on opensea.
           </Paragraph>
         </InformationWrapper>
+        <GifContainer />
       </Layout>
     </BackgroundImage>
   )
@@ -67,8 +69,16 @@ const HomePageLayout: React.FC = () => {
 const Layout = styled.div`
   width: 100%;
   min-height: 100vh;
+  height: 100vh;
   display: grid;
   grid-template-columns: 2fr 3fr;
+  grid-template-rows: 1fr 6fr;
+  gap: 10px;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.8) 0.01%,
+    rgba(0, 0, 0, 0) 100%
+  );
 `
 
 // grid top left
@@ -83,6 +93,10 @@ const ImageWrapper = styled.div`
 const InformationWrapper = styled.main`
   display: flex;
   flex-direction: column;
+  align-self: center;
+  justify-self: center;
+  max-width: 590px;
+  display: inline-block;
 `
 
 const MainTitle = styled.h1`
@@ -97,7 +111,7 @@ const SecondTitle = styled.h2`
   font-family: var(--main-font);
   font-weight: 700;
   color: #c14f67;
-  font-size: 4rem;
+  font-size: 3.5rem;
   margin: 0;
 `
 
