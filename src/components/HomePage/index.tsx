@@ -43,12 +43,12 @@ const HomePageLayout: React.FC = () => {
       <Layout>
         <ImageWrapper>
           <StaticImage
-            src="../../static/images/lotus_.jpg"
-            alt="A dinosaur"
+            src="../../static/images/lotus.png"
+            alt="Lotus logo"
             placeholder="blurred"
             layout="fixed"
-            width={280}
-            height={280}
+            width={160}
+            height={160}
           />
         </ImageWrapper>
         <Header />
@@ -75,7 +75,7 @@ const Layout = styled.div`
   height: 100vh;
   display: grid;
   grid-template-columns: 2fr 3fr;
-  grid-template-rows: 1fr 6fr;
+  grid-template-rows: 1fr 3fr;
   gap: 10px;
   background: linear-gradient(
     90deg,
