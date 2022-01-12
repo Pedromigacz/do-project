@@ -59,6 +59,7 @@ const HomePageLayout: React.FC = () => {
             Seed Chumbi will be the first and rarest Chumbi NFTs to ever exist!
             if you missed the sale, you can still buy them on opensea.
           </Paragraph>
+          <MainButton>Buy Now on Mint</MainButton>
         </InformationWrapper>
         <GifContainer />
       </Layout>
@@ -130,6 +131,20 @@ const Paragraph = styled.p`
   color: #ffffff;
   font-size: 22px;
   margin: 0;
+`
+
+const MainButton = styled.button`
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  font-family: var(--second-font);
+  font-size: 30px;
+  padding: 24px 70px;
+  margin: 2rem 0 0 2.5rem;
+
+  background: linear-gradient(92.7deg, #8416a2 -0.23%, #de654d 100%);
+  box-shadow: inset 0px 0px 23px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
 `
 
 export default HomePageLayout
