@@ -74,6 +74,7 @@ const Layout = styled.div`
   min-height: 100vh;
   height: 100vh;
   display: grid;
+  padding-left: 4rem;
   grid-template-columns: 2fr 3fr;
   grid-template-rows: 1fr 3fr;
   gap: 10px;
