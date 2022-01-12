@@ -14,8 +14,8 @@ const RotatingLogoWrapper = styled.div`
   justify-self: center;
   display: grid;
   place-items: center;
-  background: #444444;
-  box-shadow: inset 0px 0px 23px 1px rgba(0, 0, 0, 0.2);
+  background: #eeeeee;
+  box-shadow: inset 0px 0px 23px 1px rgba(0, 0, 0, 0.4);
   border-radius: 106px;
   width: 45vw;
   height: 26vw;
