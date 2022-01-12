@@ -1,6 +1,7 @@
 import * as React from "react"
 import styled from "styled-components"
 import Header from "./Header"
+import IconList from "./IconList"
 import GifContainer from "./GifContainer"
 
 import { graphql, useStaticQuery } from "gatsby"
@@ -60,6 +61,7 @@ const HomePageLayout: React.FC = () => {
             if you missed the sale, you can still buy them on opensea.
           </Paragraph>
           <MainButton>Buy Now on Mint</MainButton>
+          <IconList />
         </InformationWrapper>
         <GifContainer />
       </Layout>
