@@ -93,6 +93,7 @@ const Layout = styled.div`
 const ImageWrapper = styled.div`
   justify-self: center;
   align-self: center;
+  margin-top: 2rem;
 
   @media (max-width: 1440px) {
     display: none;
