@@ -31,15 +31,20 @@ const RotatingLogoWrapper = styled.div`
     grid-column-end: 3;
     width: 100vw;
     height: 46vw;
+    order: -1;
+    background: transparent;
+    box-shadow: none;
   }
 `
 
 const Logo = styled.img`
-  @media (max-width: 500px) {
-    transform: translateX(calc(10vw - 140px));
-  }
-  @media (max-width: 630px) {
-    transform: translateX(calc(10vw - 100px));
+  @media (max-width: 1440px) {
+    position: absolute;
+    left: 50vw;
+    transform: translateX(-50%);
+
+    width: 200px !important;
+    height: 200px !important;
   }
 `
 
