@@ -4,7 +4,7 @@ import styled from "styled-components"
 
 const GifContainer: React.FC = () => (
   <RotatingLogoWrapper>
-    <img src={lotusGif} alt="rotationg logo gif" />
+    <Logo src={lotusGif} alt="rotationg logo gif" />
   </RotatingLogoWrapper>
 )
 
@@ -22,6 +22,24 @@ const RotatingLogoWrapper = styled.div`
   img {
     display: inline-block;
     height: 100%;
+    margin: 0 auto;
+  }
+
+  @media (max-width: 1440px) {
+    border-radius: 0;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 100vw;
+    height: 46vw;
+  }
+`
+
+const Logo = styled.img`
+  @media (max-width: 500px) {
+    transform: translateX(calc(10vw - 140px));
+  }
+  @media (max-width: 630px) {
+    transform: translateX(calc(10vw - 100px));
   }
 `
 

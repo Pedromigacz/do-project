@@ -48,6 +48,9 @@ const Icon = styled.li`
   list-style: none;
   margin: 3rem 1rem 0 1rem;
   display: inline-block;
+  @media (max-width: 630px) {
+    margin: 3rem 0.5rem 0 0.5rem;
+  }
 `
 
 export default IconList

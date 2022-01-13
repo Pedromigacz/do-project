@@ -36,9 +36,6 @@ const HomePageLayout: React.FC = () => {
       // Spread bgImage into BackgroundImage:
       {...bgImage}
       preserveStackingContext
-      style={{
-        height: "100vh",
-      }}
     >
       <Layout>
         <ImageWrapper>
@@ -72,7 +69,6 @@ const HomePageLayout: React.FC = () => {
 const Layout = styled.div`
   width: 100%;
   min-height: 100vh;
-  height: 100vh;
   display: grid;
   grid-template-columns: 2fr 3fr;
   grid-template-rows: 1fr 3fr;
@@ -84,6 +80,7 @@ const Layout = styled.div`
   );
 
   @media (min-width: 1440px) {
+    height: 100vh;
     padding-left: 4rem;
   }
 `
@@ -109,13 +106,21 @@ const InformationWrapper = styled.main`
   justify-self: center;
   max-width: 590px;
   display: inline-block;
+
+  @media (max-width: 1440px) {
+    text-align: center;
+    font-size: 12px;
+    margin: 0 auto;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
 `
 
 const MainTitle = styled.h1`
   font-family: var(--main-font);
   font-weight: 900;
   color: #2caadf;
-  font-size: 4.5rem;
+  font-size: 4.5em;
   margin: 0;
 `
 
@@ -123,7 +128,7 @@ const SecondTitle = styled.h2`
   font-family: var(--main-font);
   font-weight: 700;
   color: #c14f67;
-  font-size: 3.5rem;
+  font-size: 3.5em;
   margin: 0;
   margin-bottom: 2rem;
 `
@@ -132,7 +137,7 @@ const ThirdTitle = styled.h3`
   font-family: var(--second-font);
   font-weight: 700;
   color: #2caadf;
-  font-size: 28px;
+  font-size: 1.75em;
   margin: 0;
 `
 
@@ -140,7 +145,7 @@ const Paragraph = styled.p`
   font-family: var(--second-font);
   font-weight: 600;
   color: #ffffff;
-  font-size: 22px;
+  font-size: 1.375em;
   margin: 0;
 `
 
@@ -161,6 +166,13 @@ const MainButton = styled.button`
 
   &:hover {
     transform: scale(1.1);
+  }
+
+  @media (max-width: 1440px) {
+    margin: 0;
+    margin-top: 1rem;
+    padding: 16px 42px;
+    font-size: 24px;
   }
 `
 
