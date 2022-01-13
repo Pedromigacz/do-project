@@ -38,6 +38,8 @@ const RotatingLogoWrapper = styled.div`
 `
 
 const Logo = styled.img`
+  width: 400px !important;
+  height: 400px !important;
   @media (max-width: 630px) {
     position: absolute;
     left: 50vw;
