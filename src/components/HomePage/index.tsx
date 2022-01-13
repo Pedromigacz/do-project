@@ -133,7 +133,6 @@ const SecondTitle = styled.h2`
   color: #c14f67;
   font-size: 3.5em;
   margin: 0;
-  margin-bottom: 2rem;
 `
 
 const ThirdTitle = styled.h3`
@@ -142,6 +141,7 @@ const ThirdTitle = styled.h3`
   color: #2caadf;
   font-size: 1.75em;
   margin: 0;
+  margin-bottom: 2rem;
 `
 
 const Paragraph = styled.p`
