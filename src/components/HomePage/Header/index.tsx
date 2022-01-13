@@ -17,9 +17,9 @@ const Header: React.FC = () => {
 }
 
 const MobileWrapper = styled.div`
+  grid-column-start: 1;
+  grid-column-end: 3;
   @media (min-width: 1440px) {
-    grid-column-start: 0;
-    grid-column-end: 3;
     display: none;
   }
 `

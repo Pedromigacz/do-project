@@ -74,7 +74,6 @@ const Layout = styled.div`
   min-height: 100vh;
   height: 100vh;
   display: grid;
-  padding-left: 4rem;
   grid-template-columns: 2fr 3fr;
   grid-template-rows: 1fr 3fr;
   gap: 10px;
@@ -83,6 +82,10 @@ const Layout = styled.div`
     rgba(0, 0, 0, 0.8) 0.01%,
     rgba(0, 0, 0, 0) 100%
   );
+
+  @media (min-width: 1440px) {
+    padding-left: 4rem;
+  }
 `
 
 // grid top left
