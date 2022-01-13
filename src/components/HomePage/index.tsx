@@ -90,6 +90,10 @@ const Layout = styled.div`
 const ImageWrapper = styled.div`
   justify-self: center;
   align-self: center;
+
+  @media (max-width: 1440px) {
+    display: none;
+  }
 `
 
 // Main

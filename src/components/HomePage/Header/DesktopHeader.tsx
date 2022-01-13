@@ -2,7 +2,7 @@ import * as React from "react"
 import { Link } from "gatsby"
 import styled from "styled-components"
 
-const Header: React.FC = () => {
+const DesktopHeader: React.FC = () => {
   return (
     <header>
       <HeaderWrapper>
@@ -48,4 +48,4 @@ const LinkContent = styled.li`
   }
 `
 
-export default Header
+export default DesktopHeader
