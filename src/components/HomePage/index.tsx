@@ -79,6 +79,9 @@ const Layout = styled.div`
     rgba(0, 0, 0, 0) 100%
   );
 
+  @media (max-width: 1440px) {
+    padding: 6px;
+  }
   @media (min-width: 1440px) {
     height: 100vh;
     padding-left: 4rem;
