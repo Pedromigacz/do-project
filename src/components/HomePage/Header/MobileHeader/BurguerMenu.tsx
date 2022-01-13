@@ -15,7 +15,6 @@ const BurguerMenu: React.FC<{ open: boolean; onClick: () => void }> = ({
 const BurguerWrapper = styled.button`
   cursor: pointer;
   height: 48px;
-  position: relative;
   transition: all 0.4s cubic-bezier(0, 0, 0, 1) 0s;
   user-select: none;
   width: 48px;
@@ -23,6 +22,9 @@ const BurguerWrapper = styled.button`
   transform: none;
   background: transparent;
   border: none;
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
 `
 
 const BarOne = styled.div`
