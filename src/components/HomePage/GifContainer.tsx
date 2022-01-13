@@ -31,14 +31,11 @@ const RotatingLogoWrapper = styled.div`
     grid-column-end: 3;
     width: 100vw;
     height: 46vw;
-    order: -1;
-    background: transparent;
-    box-shadow: none;
   }
 `
 
 const Logo = styled.img`
-  @media (max-width: 1440px) {
+  @media (max-width: 630px) {
     position: absolute;
     left: 50vw;
     transform: translateX(-50%);
